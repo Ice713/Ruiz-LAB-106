@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous"> 
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous"/>
+</head>
+<body>
+    <section class="navbar">
+        <div class="container-fluid">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+                <a href="#" class="navbar-brand">
+                    <img class="img-fluid rounded-circle" src="http://cas.nvsu.edu.ph/images/cas.png" alt="CAS logo" width="50em">
+                </a>
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-targer="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+                    <div class="navbar-nav">
+                        <a href="#" class="nav-item nav-link active">Home</a>
+                        <div class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">About us</a>
+                            <div class="dropdown-menu">
+                                <a href="#" class="dropdown-item">History</a>
+                                <a href="#" class="dropdown-item">Colleges</a>
+                                <a href="#" class="dropdown-item">Degree Programs</a>
+                                <a href="#" class="dropdown-item">Faculty</a>
+                                <div role="separator" class="dropdown-divider"></div>
+                                <a href="#" class="dropdown-item">Downloads</a>
+                            </div>
+                        </div>
+                        <a href="#" class="nav-item nav-link">News & Events</a>
+                        <div class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Students</a>
+                            <div class="dropdown-menu">
+                                <a href="#" class="dropdown-item">Admission</a>
+                                <a href="#" class="dropdown-item">Colleges</a>
+                                <a href="#" class="dropdown-item">Degree Programs</a>
+                                <a href="#" class="dropdown-item">Students</a>
+                                <div role="separator" class="dropdown-divider"></div>
+                                <a href="#" class="dropdown-item">Downloads</a>
+                            </div>
+                        </div>
+                        <div class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Faculty & Staff</a>
+                            <div class="dropdown-menu">
+                                <a href="#" class="dropdown-item">Admission</a>
+                                <a href="#" class="dropdown-item">Colleges</a>
+                                <a href="#" class="dropdown-item">Degree Programs</a>
+                                <a href="#" class="dropdown-item">Faculty</a>
+                                <div role="separator" class="dropdown-divider"></div>
+                                <a href="#" class="dropdown-item">Downloads</a>
+                            </div>
+                        </div>
+                        <a href="#" class="nav-item nav-link">Research & Extension</a>
+                        <a href="#" class="nav-item nav-link">Achievements</a>
+                        <a href="#" class="nav-item nav-link">Gallery</a>
+                    </div>
+                    <form class="form-inline">
+                        <div class="input-group">
+                            <input type="text" class="form-control" placeholder="Search">
+                            <div class="input-group-append">
+                                <button class="btn btn-success"><i class="fa fa-search"></i></button>
+                            </div>
+                        </div>
+                        <a href="#" class="nav-item nav-link"><button type="button" class="btn btn-outline-light"><i class="fas fa-user"></i> Login</button></a>
+                        <a href="#"><button class="btn btn-success"><i class="fas fa-plus"></i></button></a>
+                    </form>
+                </div>
+            </nav>
+        </div>
+    </section>
+    <section class="banner container">
+        <div class="jumbotron jumbotron-fluid bg-secondary py-5 px-4 mt-5">
+            <h1 class="display-1 text-warning">College of Arts & Sciences</h1>
+            <p class="my-4 lead text-white">Contributory to the Mission of the Nueva Vizcaya State University and in line with its vision of a strong and vibrant college, the College of Arts and Sciences shall provide general education courses to all students from the other colleges of the University, and to serve the special needs of other colleges for major courses in the disciplines of the Arts and Sciences. it shall also offer relevant degree courses that stand to benefit the community in particular and the global community in general.</p>
+            <button class="btn  btn-lg btn-success">Visit Website</button>
+        </div>
+    </section>
+    <section class="body-header container">
+        <div class="card bg-warning py-3 px-4 mt-5 d-flex flex-row justify-content-between">
+            <h2>Manage <span class="font-weight-bold">Faculty</span></h2>    
+            <div>
+                <button class="btn btn-danger"><i class="fas fa-minus-circle"></i> Delete</button>
+                <button class="btn btn-primary"><i class="fas fa-plus-circle"></i> Add New Employee</button>
+            </div>        
+        </div>
+    </section>
+    <section class="table container">
+        <div class="table-responsive container my-3">
+            <table class="table container table-striped">
+                <thead>
+                    <tr>
+                        <th><input type="checkbox" name="" id=""></th>
+                        <th>Name</th>
+                        <th>Email</th>
+                        <th>Address</th>
+                        <th>Phone</th>
+                        <th colspan="2">Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><input type="checkbox" name="" id=""></td>
+                        <td>Thomas Hardy</td>
+                        <td>thomashardy@mail.com</td>
+                        <td>89 Chiaroscuro Rd, Portland, USA</td>
+                        <td>(171) 555-2222</td>
+                        <td class="pr-0"><a href="#"><i class="fas fa-pen text-warning"></i></a></td>
+                        <td class="pl-0"><a href="#"><i class="fas fa-trash text-danger"></i></a></td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox" name="" id=""></td>
+                        <td>Dominique Perrier</td>
+                        <td>dominiqueperrier@mail.com</td>
+                        <td>Obere Str. 57, Berlin, Germany</td>
+                        <td>(313) 555-5735</td>
+                        <td class="pr-0"><a href="#"><i class="fas fa-pen text-warning"></i></a></td>
+                        <td class="pl-0"><a href="#"><i class="fas fa-trash text-danger"></i></a></td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox" name="" id=""></td>
+                        <td>Maria Anders</td>
+                        <td>mariaanders@mail.com</td>
+                        <td>25, rue Lauriston, Paris, France</td>
+                        <td>(503) 555-9931</td>
+                        <td class="pr-0"><a href="#"><i class="fas fa-pen text-warning"></i></a></td>
+                        <td class="pl-0"><a href="#"><i class="fas fa-trash text-danger"></i></a></td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox" name="" id=""></td>
+                        <td>Fran Wilson</td>
+                        <td>franwilson@mail.com</td>
+                        <td>C/ Araquil, 67, Madrid, Spain</td>
+                        <td>(204) 619-5731</td>
+                        <td class="pr-0"><a href="#"><i class="fas fa-pen text-warning"></i></a></td>
+                        <td class="pl-0"><a href="#"><i class="fas fa-trash text-danger"></i></a></td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox" name="" id=""></td>
+                        <td>Martin Blank</td>
+                        <td>martinblank@mail.com</td>
+                        <td>Via Monte Bianco 34, Turin, Italy</td>
+                        <td>(480) 631-2097</td>
+                        <td class="pr-0"><a href="#"><i class="fas fa-pen text-warning"></i></a></td>
+                        <td class="pl-0"><a href="#"><i class="fas fa-trash text-danger"></i></a></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+    <section class="pagination container bg-light my-4">
+        <div class="container py-3">
+            <nav>
+                <ul class="pagination justify-content-end">
+                    <li class="page-item"><a href="#" class="page-link">Previous</a></li>
+                    <li class="page-item"><a href="#" class="page-link">1</a></li>
+                    <li class="page-item"><a href="#" class="page-link">2</a></li>
+                    <li class="page-item active"><a href="#" class="page-link">3</a></li>
+                    <li class="page-item"><a href="#" class="page-link">4</a></li>
+                    <li class="page-item"><a href="#" class="page-link">5</a></li>
+                    <li class="page-item"><a href="#" class="page-link">Next</a></li>
+                </ul>
+            </nav>
+        </div>
+    </section>
+
+    <section class="footer container-fluid">
+        <div class="text-center bg-light p-5">Copyright &copy; 2021. All rights reserved. Developed by Billy.</div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+</body>
+</html>
